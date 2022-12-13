@@ -15,12 +15,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/study-features" element={<Benefit />} />
-        <Route path="/study-programs" element={<Courses />} />
-        <Route path="/about" element={<Siwes />} />
-        <Route path="/sign-in" element={<SignIn />} />
-        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/Siwes-Project-2/home" element={<Home />} />
+        <Route path="/Siwes-Project-2/study-features" element={<Benefit />} />
+        <Route path="/Siwes-Project-2/study-programs" element={<Courses />} />
+        <Route path="/Siwes-Project-2/about" element={<Siwes />} />
+        <Route path="/Siwes-Project-2/sign-in" element={<SignIn />} />
+        <Route path="/Siwes-Project-2/sign-up" element={<SignUp />} />
       </Routes>
     </BrowserRouter>
   );
