@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/Siwes-Project-2/home" element={<Home />} />
+        <Route path="/Siwes-Project-2" element={<Home />} />
         <Route path="/Siwes-Project-2/study-features" element={<Benefit />} />
         <Route path="/Siwes-Project-2/study-programs" element={<Courses />} />
         <Route path="/Siwes-Project-2/about" element={<Siwes />} />
