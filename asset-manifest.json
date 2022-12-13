@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Siwes-Project-2/static/css/main.25d3ac96.css",
-    "main.js": "/Siwes-Project-2/static/js/main.3d177feb.js",
+    "main.js": "/Siwes-Project-2/static/js/main.f97fc4ec.js",
     "static/media/siwes-logo.png": "/Siwes-Project-2/static/media/siwes-logo.44fc2531137760c63e32.png",
     "static/media/img-1.png": "/Siwes-Project-2/static/media/img-1.ba185ca165c7b07de0a2.png",
     "static/media/uniben-logo.png": "/Siwes-Project-2/static/media/uniben-logo.34421173de2a27249450.png",
@@ -14,10 +14,10 @@
     "static/media/SYNERGY.jpg": "/Siwes-Project-2/static/media/SYNERGY.162d2ce09af7e467d716.jpg",
     "index.html": "/Siwes-Project-2/index.html",
     "main.25d3ac96.css.map": "/Siwes-Project-2/static/css/main.25d3ac96.css.map",
-    "main.3d177feb.js.map": "/Siwes-Project-2/static/js/main.3d177feb.js.map"
+    "main.f97fc4ec.js.map": "/Siwes-Project-2/static/js/main.f97fc4ec.js.map"
   },
   "entrypoints": [
     "static/css/main.25d3ac96.css",
-    "static/js/main.3d177feb.js"
+    "static/js/main.f97fc4ec.js"
   ]
 }
