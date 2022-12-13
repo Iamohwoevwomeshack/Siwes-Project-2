@@ -1,10 +1,23 @@
 {
   "files": {
-    "main.js": "/Siwes-Project-2/static/js/main.25046dac.js",
+    "main.css": "/Siwes-Project-2/static/css/main.25d3ac96.css",
+    "main.js": "/Siwes-Project-2/static/js/main.3d177feb.js",
+    "static/media/siwes-logo.png": "/Siwes-Project-2/static/media/siwes-logo.44fc2531137760c63e32.png",
+    "static/media/img-1.png": "/Siwes-Project-2/static/media/img-1.ba185ca165c7b07de0a2.png",
+    "static/media/uniben-logo.png": "/Siwes-Project-2/static/media/uniben-logo.34421173de2a27249450.png",
+    "static/media/uniben-logo-2.png": "/Siwes-Project-2/static/media/uniben-logo-2.caa2a33729e46c8e2021.png",
+    "static/media/bkg-3.png": "/Siwes-Project-2/static/media/bkg-3.804958c24bc4a03f7435.png",
+    "static/media/PRACTICAL-KNOWLEDGE.jpg": "/Siwes-Project-2/static/media/PRACTICAL-KNOWLEDGE.c3a03af6e65c2e75e824.jpg",
+    "static/media/SKILL-DEVELOPMENT.jpg": "/Siwes-Project-2/static/media/SKILL-DEVELOPMENT.a272525b17d59716e04e.jpg",
+    "static/media/CORPORATE-ENVIRONMENT.jpg": "/Siwes-Project-2/static/media/CORPORATE-ENVIRONMENT.e703f6689e8a514da020.jpg",
+    "static/media/NETWORKING.jpg": "/Siwes-Project-2/static/media/NETWORKING.c2b372cc48252386317b.jpg",
+    "static/media/SYNERGY.jpg": "/Siwes-Project-2/static/media/SYNERGY.162d2ce09af7e467d716.jpg",
     "index.html": "/Siwes-Project-2/index.html",
-    "main.25046dac.js.map": "/Siwes-Project-2/static/js/main.25046dac.js.map"
+    "main.25d3ac96.css.map": "/Siwes-Project-2/static/css/main.25d3ac96.css.map",
+    "main.3d177feb.js.map": "/Siwes-Project-2/static/js/main.3d177feb.js.map"
   },
   "entrypoints": [
-    "static/js/main.25046dac.js"
+    "static/css/main.25d3ac96.css",
+    "static/js/main.3d177feb.js"
   ]
 }
