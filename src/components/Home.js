@@ -1,12 +1,12 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import bkg3 from "../images/bkg-3.png";
 
 function Home(){
     return(
         <div className="home-container">
             <Header/>
             <div className="img-container">
-            {/* <img src="./images/bkg-2.png" alt="homeImg"/> */}
             </div>
             <div className="definition">
                 <div className="definition-1">
@@ -47,7 +47,7 @@ function Home(){
                             <li>Career Advancement</li>
                         </ul>
                     </div>
-                    <img src="./images/bkg-3.png" alt="Img"/>
+                    <img src={bkg3} alt="Img"/>
                 </div>
             </div>
             <div className="definition-container">

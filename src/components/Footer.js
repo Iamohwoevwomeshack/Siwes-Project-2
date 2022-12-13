@@ -1,4 +1,6 @@
 import {FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaLinkedin} from "react-icons/fa";
+import unibenLogo from "../images/uniben-logo.png";
+import siwesLogo from "../images/siwes-logo.png";
 
 function Footer(){
     const year = new Date().getFullYear();
@@ -6,7 +8,7 @@ function Footer(){
     return(
         <div className="footer">
             <div className="footer-logo">
-                <img src="./images/siwes-logo.png" alt="siwes-logo"/>
+                <img src={siwesLogo} alt="siwes-logo"/>
                 <h3>The Student Work Experience Scheme(SIWES)
                     is a skills training programme designed to expose and prepare
                     students of universityies and other tertiary institutions for the 
@@ -43,7 +45,7 @@ function Footer(){
                 </div>
                 <div className="footer-uniben">
                     <div>
-                        <img src="./images/uniben-logo.png" alt="uniben-logo"/>
+                        <img src={unibenLogo} alt="uniben-logo"/>
                     </div>
                         <h2>UNIVERSITY OF BENIN</h2>
                         <h4>BENIN CITY, NIGERIA</h4>
