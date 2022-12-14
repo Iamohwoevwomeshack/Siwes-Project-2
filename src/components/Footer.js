@@ -20,13 +20,12 @@ function Footer(){
                 <div>
                     <h3>MENU</h3>
                     <ul>
-                        <li><a href="/#">Homepage</a></li>
-                        <li><a href="/#">About Information</a></li>
-                        <li><a href="/#">Courses Page</a></li>
-                        <li><a href="/#">Features and Benefits</a></li>
-                        <li><a href="/#">Industrial Training</a></li>
-                        <li><a href="/#" className="footer-color-purple">Register Company</a></li>
-                        <li><a href="/#" className="footer-color-purple">Company Login</a></li>
+                        <li><a href="/">Homepage</a></li>
+                        <li><a href="/about">About Information</a></li>
+                        <li><a href="/study-programs">Courses Page</a></li>
+                        <li><a href="/study-features">Features and Benefits</a></li>
+                        <li><a href="/company-sign-up" className="footer-color-purple">Register Company</a></li>
+                        <li><a href="/company-sign-in" className="footer-color-purple">Company Login</a></li>
                     </ul>
                 </div>
                 <div>
@@ -34,13 +33,13 @@ function Footer(){
                     <ul>
                         <li><a href="/#">Portal Login</a></li>
                         <li><a href="/#">Sign Up</a></li>
-                        <li><a href="/#" className="footer-color-purple">Lecturer Register</a></li>
-                        <li><a href="/#" className="footer-color-purple">Lecturer Login</a></li>
+                        <li><a href="/lecturer-register" className="footer-color-purple">Lecturer Register</a></li>
+                        <li><a href="/lecturer-sign-in" className="footer-color-purple">Lecturer Login</a></li>
                     </ul>
 
                     <h3>HELP & SUPPORT</h3>
                     <ul>
-                        <li><a href="/#">Contact Us</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
                     </ul>
                 </div>
                 <div className="footer-uniben">

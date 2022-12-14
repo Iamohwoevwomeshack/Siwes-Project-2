@@ -7,12 +7,12 @@ function Header(){
 
     const menuItems = (
         <>
-            <a href="/Siwes-Project-2">Home</a>
-            <a href="/Siwes-Project-2/study-features">Benefit</a>
-            <a href="/Siwes-Project-2/study-programs">Courses</a>
-            <a href="/Siwes-Project-2/about">SIWES</a>
-            <a href="/Siwes-Project-2/sign-in" id="sign-in">Sign In</a>
-            <a href="/Siwes-Project-2/sign-up" id="sign-up">Sign Up</a>
+            <a href="/">Home</a>
+            <a href="/study-features">Benefit</a>
+            <a href="/study-programs">Courses</a>
+            <a href="/about">SIWES</a>
+            <a href="/sign-in" id="sign-in">Sign In</a>
+            <a href="/sign-up" id="sign-up">Sign Up</a>
         </>
     )
 

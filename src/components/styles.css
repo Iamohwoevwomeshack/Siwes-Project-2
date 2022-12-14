@@ -567,6 +567,259 @@ color: #910298;
     margin-left: 1rem;
 }
 
+/* SIGN-IN SIGN-UP */
+
+.sign-in-container{
+    width: 100%;
+    height: 120vh;
+    margin: auto;
+    text-align: center;
+    background-color: #e5e9e3;
+    background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+}
+
+.sign-in-container h2 {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: #59035e;
+}
+
+#sign-up-form {
+    height: 350px;
+}
+
+#company-register-form{
+    height: 200px;
+}
+
+.sign-in-container img {
+    width: 150px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sign-in-container .form-container {
+    margin: auto;
+    width: 27rem;
+}
+
+.sign-in-container .form-container p{
+    background-color: #59035e;
+    font-size: 1.5rem;
+    width: 25rem;
+    margin: auto;
+    padding: .4rem;
+    color: white;
+    font-weight: 600;
+}
+
+.sign-in-container .form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 150px;
+    margin: auto;
+    background-color: #f4d0f5;
+    padding-top: 15px;
+}
+
+.sign-in-container .form-container form input {
+    width: 22rem;
+    height: 30px;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    border: none;
+    border-radius: .4rem;
+}
+
+.sign-in-container .form-container form button {
+    width: 22rem;
+    height: 30px;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: .4rem;
+    background-color: #af25b6;
+}
+
+.sign-in-container .form-container form button:hover{
+    background-color: #59035e;
+    transition: .5s;
+}
+
+.sign-in-container .form-container form button a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: white;
+    padding: 3px;
+}
+
+.sign-in-container .form-container form button a:hover {
+    color: #f7b603;
+    transition: .5s;
+}
+
+.sign-in-container .forget-password{
+    background-color: #af25b6;
+    width: 25rem;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+ .forget-password p a {
+    color: #e46803;
+}
+
+.back-to-homepage {
+    width: 25rem;
+    margin: auto;
+}
+
+.sign-in-container .back-to-homepage h3 {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.sign-in-container .back-to-homepage h3 a {
+    color: red;
+    font-size: 1.2rem;
+}
+
+.sign-in-container .sign-in-copyright{
+    position: relative;
+    margin-top: 7rem;
+    color: #484949;
+    font-size: 1.1rem;
+}
+
+/* CONTACT */
+
+.contact-container{
+    width: 100%;
+    height: 70vh;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.contact-container h3 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact-container p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.contact-container div {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+}
+
+.contact-container div a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding-bottom: .5rem;
+    color: #910298;
+    font-weight: 600;
+}
+
+.contact-container div a:hover{
+    color: #59035e;
+    transition: .5s;
+}
+
+.computer-science-cl{
+    width: 800px;
+    height: 90vh;
+    margin: auto;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.computer-science-cl div .computer-science-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e9e3;
+    padding: 2rem;
+    width: 350px;
+}
+
+.computer-science-cl div .computer-science-form label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #910298;
+    padding-bottom: .3rem;
+    padding-left: .2rem;
+}
+
+.computer-science-cl div .computer-science-form input {
+    height: 30px;
+    padding-left: 1rem;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    font-weight: 500;
+}
+
+.computer-science-cl div .computer-science-form textarea {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border: none;
+    font-size: 16px;
+    border-radius: .5rem;
+    font-weight: 500;
+}
+
+.computer-science-cl div .computer-science-form button {
+    width: 5rem;
+    padding: .4rem 1.2rem;
+    margin-top: 1rem;
+    background-color: #910298;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+}
+
+.computer-science-cl .computer-contact-container h3{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.computer-science-cl .computer-contact-container p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.computer-science-cl .computer-contact-container div{
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+}
+
+.computer-science-cl .computer-contact-container div a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding-bottom: .5rem;
+    color: #910298;
+    font-weight: 600;
+}
+
+.computer-science-cl .computer-contact-container div a:hover{
+    color: #59035e;
+    transition: .5s;
+}
+
 
 /* FOOTER */
 
@@ -854,6 +1107,19 @@ color: #910298;
     margin: auto;
     margin-top: 80px;
 }
+
+/* CONTACT */
+
+.computer-science-cl{
+    width: 47rem;
+    height: 550px;
+    margin: auto;
+    padding-top: 5rem;
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+}
+
 
 
     /* FOOTER */
@@ -1218,6 +1484,84 @@ font-size: 1.2rem;
     width: 19rem;
     margin-bottom: 3rem;
     margin-left: 0rem;
+}
+
+/* SIGN-IN SIGN-UP */
+
+.sign-in-container img {
+    width: 100px;
+}
+
+.sign-in-container .form-container {
+    width: 22rem;
+}
+
+.sign-in-container .form-container p{
+    width: 19rem;
+}
+
+.sign-in-container .form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+    height: 150px;
+    padding-top: 15px;
+}
+
+.sign-in-container .form-container form input {
+    width: 16rem;
+}
+
+.sign-in-container .form-container form button {
+    width: 16rem;
+    height: 32px;
+}
+
+.sign-in-container .forget-password{
+    width: 19rem;
+}
+
+.back-to-homepage {
+    width: 19rem;
+}
+
+/* CONTACT */
+
+.computer-science-cl{
+    width: 20rem;
+    height: 700px;
+    padding-top: 2rem;
+    flex-direction: column;
+    justify-content: none;
+    margin-left: -3.1rem;
+}
+
+.computer-science-cl div .computer-science-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e9e3;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin: auto;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.computer-science-cl div .computer-science-form input {
+    height: 27px;
+}
+
+.computer-science-cl .computer-contact-container h3{
+    padding-bottom: 1.5rem;
+}
+
+.computer-science-cl .computer-contact-container div a {
+    font-size: 1.2rem;
+}
+
+.computer-science-cl .computer-contact-container div a:hover{
+    color: #59035e;
+    transition: .5s;
 }
 
     /* FOOTER */

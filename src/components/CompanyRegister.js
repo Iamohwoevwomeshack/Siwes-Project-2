@@ -1,22 +1,23 @@
-import siwes from "../images/siwes-logo.png";
 
-function SignIn(){
+
+function CompanyRegister(){
 
     const year = new Date().getFullYear();
 
     return(<div className="sign-in-container">
-        <img src={siwes} alt="img" />
+        <h2>COMPANY</h2>
         <div className="form-container">
-            <p>LOGIN</p>
-            <form>
-                <input type="text" placeholder="MAT NO."/>
+            <p>SIGN UP</p>
+            <form id="company-register-form">
+                <input type="email" placeholder="email"/>
                 <input type="password" placeholder="Password"/>
-                <button><a href="/#">Login</a></button>
+                <input type="password" placeholder="Confirm Password"/>
+                <button><a href="/#">sign up</a></button>
             </form>
         </div>
         <div className="forget-password">
             <p>Forget Password? <a href="/#">Recover Here</a></p>
-            <p>New Here? <a href="/sign-up">SignUp</a></p>
+            <p>Already Registered? <a href="/company-sign-in">Sign In</a></p>
         </div>
         <div className="back-to-homepage"><h3><a href="/">Back to Homepage</a></h3></div>
         
@@ -24,4 +25,4 @@ function SignIn(){
     </div>)
 }
 
-export default SignIn;
+export default CompanyRegister;
