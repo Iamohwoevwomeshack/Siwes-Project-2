@@ -26,9 +26,9 @@ import LecturerProfile from "./LecturerProfile";
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="Siwes-Project-2">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Siwes-Project-2" element={<Home />} />
         <Route path="/study-features" element={<Benefit />} />
         <Route path="/study-programs" element={<Courses />} />
         <Route path="/about" element={<Siwes />} />
