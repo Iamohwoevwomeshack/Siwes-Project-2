@@ -7,16 +7,19 @@ function RecentPost(){
     return(
     <div>
         <Header/>
+        <div className="recent-post-container">
         <div>
-            <h3>Recent Posts</h3>
+            <h3>RecentPost</h3>
         </div>
 
-        <div>
-        <p>Post</p>
+        <div className="post-container">
+        <h3>Posts</h3>
+        <p/>
         </div>
 
 
-        <p>Copyright © {year}, University of Benin</p>
+        <p className="recent-profile-post">Copyright © {year}, University of Benin</p>
+    </div>
     </div>
     )
 }

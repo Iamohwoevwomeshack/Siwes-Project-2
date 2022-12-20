@@ -5,18 +5,26 @@ function LecturerProfile(){
     const year = new Date().getFullYear();
     
     return(
-    <div>
+    <div className="lecturer-background">
         <Header/>
-        <div>
+        <div className="lecturer-container">
             <h3>Lecturer</h3>
+            <div className="number-count-container">
+                <div><p className="number-of-interns">Number of Interns</p><button className="lecturer-span-1"/></div>
+                <div><p className="number-of-companies">Number of Companies</p><button className="lecturer-span-2"/></div>
+            </div>
         </div>
 
-        <div>
-        Upload file
+        <div className="lectuer-file-upload">
+            <input type="file" />
+            <div>
+            <label className="lectuer-label-1">Download</label>
+            <label className="lectuer-label-2">Delete</label>
+            </div>
         </div>
 
 
-        <p>Copyright © {year}, University of Benin</p>
+        <p className="lecturer-copyright">Copyright © {year}, University of Benin</p>
     </div>
     )
 }
