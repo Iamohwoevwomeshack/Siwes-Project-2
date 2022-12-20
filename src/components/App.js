@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import "./styles.css";
 
 // PATH
@@ -26,9 +26,9 @@ import LecturerProfile from "./LecturerProfile";
 function App() {
 
   return (
-    <BrowserRouter basename="Siwes-Project-2">
+    <>
       <Routes>
-        <Route path="/Siwes-Project-2" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/study-features" element={<Benefit />} />
         <Route path="/study-programs" element={<Courses />} />
         <Route path="/about" element={<Siwes />} />
@@ -48,7 +48,7 @@ function App() {
         <Route path="/recent-post" element={<RecentPost />} />
         <Route path="/lecturer-profile" element={<LecturerProfile />} />
       </Routes>
-    </BrowserRouter>
+      </>
   );
 }
 
